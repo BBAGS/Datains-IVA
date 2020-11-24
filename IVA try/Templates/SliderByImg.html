@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<title>Showcase try</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<body>
+
+    <div class="w3-content" style="max-width:1200px">
+        <img class="mySlides" src="/Assets/Video ss/ss vid 1.png" style="width:100%">
+        <img class="mySlides" src="/Assets/Video ss/ss vid 2.png" style="width:100%; display:none">
+        <img class="mySlides" src="/Assets/Video ss/ss vid 3.png" style="width:100%; display:none">
+
+        <div class="row" style="width: 100%; display: flex; justify-content: space-between;">
+            <div class="col" style="width: 30%;">
+                <img class="demo w3-opacity w3-hover-opacity-off" src="/Assets/Video ss/ss vid 1.png"
+                    style="width:100%; cursor:pointer" onclick="currentDiv(1)">
+            </div>
+            <div class="col" style="width: 30%;">
+                <img class="demo w3-opacity w3-hover-opacity-off" src="/Assets/Video ss/ss vid 2.png"
+                    style="width:100%; cursor:pointer" onclick="currentDiv(2)">
+            </div>
+            <div class="col" style="width: 30%;">
+                <img class="demo w3-opacity w3-hover-opacity-off" src="/Assets/Video ss/ss vid 3.png"
+                    style="width:100%; cursor:pointer" onclick="currentDiv(3)">
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function currentDiv(n) {
+            showDivs(slideIndex = n);
+        }
+
+        function showDivs(n) {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("demo");
+            if (n > x.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = x.length }
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+
+            x[slideIndex - 1].style.display = "block";
+
+        }
+    </script>
+
+</body>
+
+</html>
