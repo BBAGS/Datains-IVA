@@ -1,0 +1,109 @@
+.status-box {
+    background-color: white; 
+    margin-left: 15px; 
+    margin-right: 15px; 
+    margin-top: 20px; 
+    height: auto; 
+    display: flex; 
+    justify-content: space-between;
+}
+
+.status-box-title {
+    padding-top: 30px; 
+    padding-left: 30px;
+}
+
+#a-dot {
+    margin-bottom: 4px; 
+    margin-left: 10px; 
+    margin-right: 10px;
+}
+
+.status-box-content {
+    display:inline-block; 
+    vertical-align:top;
+}
+
+.status-box-contentdet {
+    display:inline-block;
+}
+
+.progress.sbc {
+    height: 10px; 
+    width: 120px; 
+    margin-top: 5px;
+}
+
+.mapbox {
+    width: auto; 
+    height: 600px; 
+    margin-left: 15px; 
+    margin-right: 15px; 
+    margin-top: 20px;
+}
+
+.video-details {
+    background-color: white;
+    margin-top: 20px; 
+    padding-left: 15px; 
+    padding-right: 15px; 
+    padding-top: 30px; 
+    height: auto; 
+    width: 100%;
+}
+
+.video-details-control {
+    position: relative; 
+    text-align: center; 
+    color: rgb(255, 255, 255); 
+    font-size: 12px; 
+    height: 41px; 
+    width: 181px;
+}
+
+.date-button {
+    position: absolute; 
+    top: 50%; 
+    left: 55%; 
+    transform: translate(-50%, -50%);
+}
+
+.video-details-content {
+    background-color: white; 
+    padding-left: 15px; 
+    padding-right: 15px; 
+    padding-top: 20px; 
+    padding-bottom: 30px; 
+    height: auto; 
+    width: 100%;
+}
+
+.slider {
+    margin-top: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.slider-cont {
+    margin-bottom: 30px;
+}
+
+.gridview {
+    width: 100%;
+}
+
+.search-tools {
+    width: 100%; 
+    margin-left: 0px; 
+    margin-right: 0px; 
+    margin-top: 20px; 
+    height: auto; 
+    display: flex; 
+    justify-content: space-between;
+}
+
+.entity-icon {
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+}
